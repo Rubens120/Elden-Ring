@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<header>
+	<div class="navbars" id="navbar-id">
+		<ul>
+			<li><a href="niks.html">Gallery</a></li>
+			<li><a href="niks.html">About</a></li>
+			<li><a href="niks.html">Characters</a></li>
+			<li><a href="niks.html">System Requirements</a></li>
+		</ul>
+	</div>
+	<a href="javascript:void(0);" class="icon" onclick="navbarFunction()">
+		<i class="fa fa-bars"></i>
+		</a>
+</header>
+<body>
+	<main>
+		<section class="hero">
+			<img src="src/images/melenia.jpg" alt="">
+			<div class="hero-content">
+				<h3>Bandai Namco Entertainment Inc.</h3>
+				<h1>Elden Ring</h1>
+				<p>Vrandish the power of the Elden Ring and become Elden Lord in the Lands Between.</p>
+			<div class="hero-order">
+				<h3>$49,99</h3>
+					<button>Order Now</button> 		
+				 <div class="button-and-haert">
+					<div class="heart" id="heartbutton" onclick="heartToggle()"></div> 
+				</div> 
+				<ul>
+					<li><img src="src/images/steam-icon.png" alt="steam"></li>
+					<li><img src="src/images/playstation-icon.png" alt="ps"></li>
+					<li><img src="src/images/xbox-icon.png" alt="xbox"></li>
+				</ul>
+			</div>
+		</div>
+		</section>
+		<section class="art">
+			<div class="art-container">
+				<i id="left" class="fa-solid fa-angle-left"></i>
+			<div class="art-slider">
+					<!-- <img class="first-image" src="src/images/melenia.jpg" alt=""> -->
+					<img src="src/images/melenia.jpg" alt="">
+					<img src="src/images/maliketh.jpg" alt="">
+					<img src="src/images/dragonlord.jpg" alt="">
+					<img src="src/images/renala.jpg" alt="">
+				</div>
+				<i id="right" class="fa-solid fa-angle-right"></i>
+				<!-- <a class="arrow left-arrow" onclick="ArtSlider(-1)"></a>
+				<a class="arrow right-arrow" onclick="ArtSlider(1)"> </a>	 -->
+				<!-- <a class="arrow left-arrow"></a> 
+				<a class="arrow right-arrow"> </a>	   -->
+			</div>
+		</section>
+		<section class="about">
+			<div>
+				<img src="src/images/elden-ring-logo.jpg" alt="">
+			</div>
+			<div>
+			<h3>About</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros ex, vulputate vitae rutrum in, tempor volutpat quam. Ut tortor nunc, porta sit amet lacus et, accumsan condimentum dui. Nulla facilisi. Aliquam non nunc tristique, facilisis orci id, ultricies mauris. Proin rhoncus ullamcorper rhoncus. Cras sed elit eu lorem imperdiet porttitor. Donec fringilla sapien neque, sed consectetur ligula pretium nec. Aenean dictum sollicitudin blandit.
+			</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros ex, vulputate vitae rutrum in, tempor volutpat quam. Ut tortor nunc, porta sit amet lacus et, accumsan condimentum dui. Nulla facilisi. Aliquam non nunc tristique, facilisis orci id, ultricies mauris. Proin rhoncus ullamcorper rhoncus. Cras sed elit eu lorem imperdiet porttitor. Donec fringilla sapien neque, sed consectetur ligula pretium nec. Aenean dictum sollicitudin blandit.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros ex, vulputate vitae rutrum in, tempor volutpat quam. Ut tortor nunc, porta sit amet lacus et, accumsan condimentum dui. Nulla facilisi. Aliquam non nunc tristique, facilisis orci id, ultricies mauris. Proin rhoncus ullamcorper rhoncus. Cras sed elit eu lorem imperdiet porttitor. Donec fringilla sapien neque, sed consectetur ligula pretium nec. Aenean dictum sollicitudin blandit.
+			</p>
+			<p>
+				Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut tortor nunc, porta sit amet lacus et, accumsan condimentum dui. Nulla facilisi. Aliquam non nunc tristique, facilisis orci id, ultricies mauris. Proin rhoncus ullamcorper rhoncus. Cras sed elit eu lorem imperdiet porttitor. Donec fringilla sapien neque, sed consectetur ligula pretium nec. Aenean dictum sollicitudin blandit.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur 
+			</p>
+			</div>
+		</section>
+		<section class="Character">
+			<h3>Characters</h3>
+			<div class="slides-container">
+				<div class="Character-content">
+					<img src="src/images/Samurai.png" alt="">
+					<div class="slides-character">
+						<a class="previous-img" onclick="plusSlides(-1)">❮ Wretch</a>
+						<a class="next-img" onclick="plusSlides(1)">Vagabond ❯</a>
+						<h3>Samurai</h3>
+						<p>
+							Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut tortor nunc, porta sit amet
+						</p>
+					</div>
+				</div>
+				<div class="Character-content">
+					<img src="src/images/Vagabond.png" alt="">
+					<div class="slides-character">
+						<a class="previous-img" onclick="plusSlides(-1)">❮ Samurai</a>
+						<a class="next-img" onclick="plusSlides(1)">Prisoner ❯</a>
+						<h3>Vagabond</h3>
+						<p>
+							Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut tortor nunc, porta sit amet
+						</p>
+					</div>
+				</div>
+				<div class="Character-content">
+					<img src="src/images/Prisoner.png" alt="">
+					<div class="slides-character">
+						<a class="previous-img" onclick="plusSlides(-1)">❮ Vagabond</a>
+						<a class="next-img" onclick="plusSlides(1)">Warrior ❯</a>
+						<h3>Prisoner</h3>
+						<p>
+							Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut tortor nunc, porta sit amet
+						</p>
+					</div>
+				</div>
+				<div class="Character-content">
+					<img src="src/images/Warrior.png" alt="">
+					<div class="slides-character">
+						<a class="previous-img" onclick="plusSlides(-1)">❮ Prisoner</a>
+						<a class="next-img" onclick="plusSlides(1)">Hero ❯</a>
+						<h3>Warrior</h3>
+						<p>
+							Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut tortor nunc, porta sit amet
+						</p>
+					</div>
+				</div>
+				<div class="Character-content">
+					<img src="src/images/Hero.png" alt="">
+					<div class="slides-character">
+						<a class="previous-img" onclick="plusSlides(-1)">❮ Warrior</a>
+						<a class="next-img" onclick="plusSlides(1)">Confessor ❯</a>
+						<h3>Hero</h3>
+						<p>
+							Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut tortor nunc, porta sit amet
+						</p>
+					</div>
+				</div>
+				<div class="Character-content">
+					<img src="src/images/Confessor.png" alt="">
+					<div class="slides-character">
+						<a class="previous-img" onclick="plusSlides(-1)">❮ Hero</a>
+						<a class="next-img" onclick="plusSlides(1)">Bandit ❯</a>
+						<h3>Confessor</h3>
+						<p>
+							Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut tortor nunc, porta sit amet
+						</p>
+					</div>
+				</div>
+				<div class="Character-content">
+					<img src="src/images/Bandit.png" alt="">
+					<div class="slides-character">
+						<a class="previous-img" onclick="plusSlides(-1)">❮ Confessor</a>
+						<a class="next-img" onclick="plusSlides(1)">Astrologer❯</a>
+						<h3>Bandit</h3>
+						<p>
+							Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut tortor nunc, porta sit amet
+						</p>
+					</div>
+				</div>
+				<div class="Character-content">
+					<img src="src/images/Astrologer.png" alt="">
+					<div class="slides-character">
+						<a class="previous-img" onclick="plusSlides(-1)">❮ Bandit</a>
+						<a class="next-img" onclick="plusSlides(1)"> Wretch ❯</a>
+						<h3>Astrologer</h3>
+						<p>
+							Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut tortor nunc, porta sit amet
+						</p>
+					</div>
+				</div>
+				<div class="Character-content">
+					<img src="src/images/Wretch.png" alt="">
+					<div class="slides-character">
+						<a class="previous-img" onclick="plusSlides(-1)"> ❮ Astrologer</a>
+						<a class="next-img" onclick="plusSlides(1)">Samurai ❯</a>
+						<h3>Wretch</h3>
+						<p>
+							Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut tortor nunc, porta sit amet
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="system-requirements">
+			<h3>System Requirements</h3>
+			<div class="system-requirements-list">
+
+				<ul>
+					<li>minimum</li>
+					<li>Lorem ipsum dolor </li>
+					<li>Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut </li>
+					<li>Lorem ipsum dolor </li>
+					<li>Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut </li>
+					<li>Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut </li>
+					<li>Lorem ipsum dolor </li>
+					<li>Lorem ipsum dolor </li>
+					<li>Lorem ipsum dolor </li>
+					<li>Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut </li>
+				</ul>
+
+				<ul>
+					<li>Requirements</li>
+					<li>Lorem ipsum dolor </li>
+					<li>Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut </li>
+					<li>Lorem ipsum dolor </li>
+					<li>Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut </li>
+					<li>Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut </li>
+					<li>Lorem ipsum dolor </li>
+					<li>Lorem ipsum dolor </li>
+					<li>Lorem ipsum dolor </li>
+					<li>Lorem ipsum dolor vulputate vitae rutrum in, tempor volutpat quam. Ut </li>
+				</ul>
+			</div>
+		</section>
+	</main>
+</body>
+	
+<footer>
+	<script src="script.js"></script>
+  </footer>
+</html>
